@@ -1,0 +1,8 @@
+.ingScreen{
+    background:url("../img/fon.jpg");
+    height: 100vh;
+    color:white
+}
+.ingBlock h1{
+    text-align: center;
+}

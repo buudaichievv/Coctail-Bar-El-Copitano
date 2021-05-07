@@ -1,0 +1,52 @@
+.imgDrink{
+    width: 150px;
+}
+.name{
+    font-size: 14px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    width: 66%;
+    flex-wrap: wrap ;
+    margin-left: 15%;
+}
+.a{
+    width: 155px;
+    margin: 3% 1%;
+    color:white;
+    text-decoration: none;
+}
+.a:hover{
+    color:white;
+    text-decoration: none;
+}
+@media (max-width:414px) {
+    .cards{
+        display: block;
+        width: 80%;
+    }
+    .name{
+        font-size: 14px;
+        width: 100%;
+    }
+    .imgDrink{
+        width: 300px;
+    }
+    .a{
+        width: 105px;
+        margin: 3% 1%;
+        color:white;
+        text-decoration: none;
+    }
+    .a:hover{
+        color:white;
+        text-decoration: none;
+    }
+    .coctail{
+        width: 300px;
+        margin: 0 !important;
+        padding: 0;
+
+    }
+}

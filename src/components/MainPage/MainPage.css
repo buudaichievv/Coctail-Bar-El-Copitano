@@ -1,0 +1,242 @@
+head,body{
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Arima Madurai;
+    src: url(../../font/Arima_Madurai/ArimaMadurai-Light.ttf); 
+   }
+.fone{
+    background: url('../../img/header_fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: auto;
+}
+.fone h1{
+    font-size: 12rem;
+    margin-left: 20%;
+    margin-top:15%;
+    margin-bottom: 0%;
+    color:white;
+    font-family: Arima Madurai;
+    text-shadow: 15px -10px 10px gray;
+}
+.fone h2{
+    font-size: 5rem;
+    margin-left: 25%;
+    margin-bottom: 0%;
+    color:white;
+    animation-name: foneh;
+    animation: 1s infinite;
+    font-family: Arima Madurai;
+    text-shadow:15px -10px 8px gray;
+}
+.fone button {
+    width: 15%;
+    padding: 20px;
+    background: none;
+    color:#FAB400;
+    font-size: 15px;
+    border: 2px solid #FAB400;
+    margin-left: 22%;
+    margin-top: 5%;
+    animation: 1s infinite;
+    animation-name: fone;
+    
+}
+.carousel-control-prev,.carousel-control-next{
+    color:#000;
+    width: 5%;
+    
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    padding: 34px !important;
+    color:#000 !important;
+    fill:#000 !important;
+    opacity:100 !important;
+}
+@keyframes fone{
+    0%{
+        box-shadow: 0px 0px 0px #FAB400;
+    }
+    25%{
+        box-shadow: 0px 0px 10px #FAB400;
+    }
+    50%{
+        box-shadow: 0px 0px 20px #FAB400;
+    }
+    70%{
+       box-shadow: 0px 0px 10px #FAB400;
+    }
+    100%{
+        box-shadow: 0px 0px 0px #FAB400;
+    }
+
+}
+.block{
+    width: 100%;
+}
+.bg{
+    background: #000;
+    margin: 10% 0%;
+}
+.bg .line{
+    width: 100%;
+} 
+.bg .bg_info{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    margin: 5% 0%;
+    align-items: center;
+    grid-template-columns:3fr 5fr 4fr;
+}
+.bg_info h2{
+    color:white;
+    font-size:40px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+}
+ul .bg_li{
+    color:white;
+    font-style: italic;
+}
+.rom{
+    width: 100%;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buttons button{
+    width: 30%;
+    margin: 0% 0.5%;
+    border: none;
+    background:#393939;
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    padding: 0.5% 0%;
+}
+@media (max-width:768px) {
+    .fone h1{
+        font-size: 9rem;
+        margin-left: 20%;
+        margin-top:15%;
+        margin-bottom: 0%;
+        color:white;
+        font-family: Arima Madurai;
+        text-shadow: 10px -5px 10px gray;
+    }
+    .fone h2{
+        font-size: 4rem;
+        margin-left: 25%;
+        margin-bottom: 0%;
+        color:white;
+        animation-name: foneh;
+        animation: 1s infinite;
+        font-family: Arima Madurai;
+        text-shadow:5px -5px 8px gray;
+    }
+    .fone button {
+        width: 200px;
+    }
+    .fone{
+        background: url('../../img/header_fon.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        background-position: center;
+        width: auto;
+    }
+    .bg_info h2{
+        color:white;
+        font-size:40px;
+        margin-bottom: 10%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    }
+}
+@media (max-width:414px){
+    .fone{
+        background: url('../../img/header_fon.png');
+        background-repeat: no-repeat;
+        height:80vh;
+        background-position: center;
+        width: auto;
+    }
+
+.fone h1{
+    font-size: 6rem;
+    text-align: center;
+    color:white;
+    margin-left: 0;
+    font-family: Arima Madurai;
+    text-shadow: 7px -5px 10px gray;
+}
+.fone h2{
+    font-size:2rem;
+    text-align: center;
+    color:white;
+    animation-name: foneh;
+    animation: 1s infinite;
+    font-family: Arima Madurai;
+    text-shadow:15px -10px 8px gray;
+}
+.fone button {
+    width: 40%;
+    padding: 10px;
+    background: none;
+    color:#FAB400;
+    font-size: 15px;
+    border: 2px solid #FAB400;
+    margin: 20% 0% 0% 30%;
+    animation: 1s infinite;
+    animation-name: fone;
+    
+}
+.carousel-control-prev,.carousel-control-next{
+    color:#000;
+    width:15%;
+    
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    padding: 0px !important;
+    color:#000 !important;
+    fill:#000 !important;
+    opacity:100 !important;
+}
+
+.bg .bg_info{
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+ul .bg_li{
+    color:white;
+    margin-top: 10px;
+    font-style: italic;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buttons button{
+    width: 30%;
+    margin: 0% 0.5%;
+    border: none;
+    background:#393939;
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    padding: 0.5% 0%;
+}
+}

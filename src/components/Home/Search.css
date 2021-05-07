@@ -1,0 +1,36 @@
+.box{
+    display: flex;
+    margin: 5% 30%;
+    width: 40%;
+
+}
+.input{
+    background: none;
+    color:gray;
+    width: 100%;
+    outline: none;
+    border: 1px solid #FAB400;
+    padding: 5px 10px;
+}
+.select{
+    background: none;
+    color:white;
+    border: 1px solid #FAB400;
+}
+
+@media (max-width:414px){
+    .box{
+        display: flex;
+        margin: 15% 10%;
+        width: 80%;
+    
+    }
+    .input{
+        background: none;
+        color:gray;
+        width: 100%;
+        outline: none;
+        border: 1px solid #FAB400;
+        padding: 5px 10px;
+    }
+}

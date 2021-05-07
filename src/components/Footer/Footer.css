@@ -1,0 +1,136 @@
+
+.footer_cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    padding-top: 2%;
+}
+.footer{
+    background: #000;
+}
+.footer_logo{
+    width: 100px;
+    height: 100px;
+}
+.footer_cards{
+    width:80%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_card{
+    border: 1px solid #FAB400;
+    width: 18%;
+    height: 170px;
+    background:none;
+    color:#FAB400;
+    font-weight: 700;
+    font-size:100%;
+}
+.liner{
+    height: 200px;
+}
+.footer_card ol{
+    margin-top: 10%;
+    text-align: center;
+    padding: 0;
+}
+.footer_card ol .footer_li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.footer_card ul{
+    padding: 0;
+}
+.footer_card ul .footer_li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10%;
+    text-align: center;
+    color:#FAB400;
+    cursor: pointer;
+}
+.alc{
+    margin-top: 4%;
+}
+.footer_card h6{
+    margin:15% 30%;
+}
+.footer_card .messenger{
+    margin: 0% 16%;
+}
+.footer_card .messenger .inst{
+    margin-left: 10%;
+    cursor: pointer;
+    width: 35px;
+}
+.footer_card .messenger .facebook{
+    margin-right: 10%;
+    cursor: pointer;
+    width: 35px;
+}
+
+@media (max-width:768px) {
+    .footer_card{
+        border: 1px solid #FAB400;
+        width:25%;
+        height: 170px;
+        background:none;
+        color:#FAB400;
+        margin: 3% auto;
+        font-weight: 700;
+        font-size:100%;
+    }
+}
+@media (max-width:414px){
+    .footer_logo{
+        width: 100px;
+        height: 100px;
+        margin-left:40%;;
+    }
+.footer_cont{
+    display: block;
+    margin-top: 10%;
+    padding-top: 2%;
+}
+.footer_cards{
+    width:100%;
+    display: block;
+}
+.footer_card{
+    border: 1px solid #FAB400;
+    width:60%;
+    height: 170px;
+    background:none;
+    color:#FAB400;
+    margin: 3% auto;
+    font-weight: 700;
+    font-size:100%;
+}
+.footer_card ol{
+    margin-top: 5%;
+    text-align: center;
+    padding: 0;
+}
+.footer_card ol .footer_li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.footer_card .messenger{
+    margin: 0% 24%;
+}
+.footer_card .messenger .inst{
+    margin-left: 10%;
+    cursor: pointer;
+    width: 35px;
+}
+.footer_card .messenger .facebook{
+    margin-right: 10%;
+    cursor: pointer;
+    width: 35px;
+}
+}
